@@ -10,7 +10,14 @@ h1 {
     font-weight: 600;
 }
 
-a:hover{
+.btn-pink {
+    display:inline-block;
+    padding: 5px 10px;
+    background-color: pink;
+    border: 1px solid navy;
+    border-radius: 10px;
+}
+.btn-pink:hover{
     background-color: palevioletred;
 }
 
@@ -38,4 +45,27 @@ a:hover{
 .list-inline > li {
     display: inline-block;
     padding: 0px 20px;
+}
+
+.icon-small {
+    width:30px;
+    height:30px;
+}
+
+@media (max-width:960px){
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width:720px){
+    .container {
+        width:500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width:300px;
+    }
 }
